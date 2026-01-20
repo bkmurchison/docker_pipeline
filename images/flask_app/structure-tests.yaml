@@ -3,7 +3,7 @@ commandTests:
   - name: "Check Python version"
     command: "python"
     args: ["--version"]
-    expectedOutput: ["Python 3.11.10"]
+    expectedOutput: ["Python 3.14.2"]
   - name: "Check Flask installation"
     command: "pip"
     args: ["show", "flask"]
