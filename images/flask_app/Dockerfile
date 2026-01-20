@@ -1,4 +1,4 @@
-FROM python:3.14.3-slim-trixie
+FROM python:3.14.2-slim-trixie
 RUN useradd -m -s /bin/bash appuser
 WORKDIR /app
 COPY src/* ./
