@@ -4,7 +4,7 @@ commandTests:
   - name: "Node.js version"
     command: "node"
     args: ["--version"]
-    expectedOutput: ["v14.17.6"]
+    expectedOutput: ["v25.4.0"]
 
 fileExistenceTests:
   - name: "Working directory"
